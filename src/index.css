@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #EAEAEA;
+  font-family: 'Roboto';
+
+}
+
+.content-product {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  height: 47px;
+  left: 0px;
+  top: 0px;
+  background: black;
+  display: flex;
+}
+
+.user {
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  right: 0px;
+  top: 9px;
+  background: url(assets/user.png);
+  background-repeat: no-repeat;
+  background-position: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.user span {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin: 0px 2px;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: 47px;
+  left: 0px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #FFD621;
+  background-image: linear-gradient(rgb(255, 187, 0), rgb(255, 225, 0));
+  margin-bottom: 50px;
+  border-bottom: 47px solid #ffe121f2;
+}
+
+.banner img {
+  height: 160px;
+  width:230px;
+}
+
+.footer {
+    position:relative;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #FFD621;
+    margin-bottom: 50px;
+  
+}
+
+.camposFuturos {
+  text-align: center;
+  position: relative;
+}
+
+li {
+  list-style-type: none;
+  display: none;
+}
+
+li::before {
+  /* devolve a semântica apenas */
+  content: "\200B";
+}
+
+.main-products {
+  width: 100%;
+  position: relative;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+@media (min-width: 200px) and (max-width: 501px) {
+  .main-products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .banner img {
+    width: 250px;
+  }
+
+}
+
+@media (min-width:500px) and (max-width: 740px) {
+  .main-products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .banner img {
+    width: 350px;
+  }
+  .footer {
+  position:relative;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #FFD621;
+  margin-bottom: 50px;
+
+  }
+}
+
+@media (min-width:741px) and (max-width: 1000px) {
+  .main-products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .banner img {
+    width: 500px;
+  }
+
+}
+
+/* Parte relativa a cada item */
+
+.product {
+    width: 240px;
+    box-sizing: border-box;
+    height: 400px;
+    margin: 20px;
+    padding: 20px 20px;
+    background-color: rgb(247, 229, 139);
+    border-radius: 5px;
+    display: grid;
+    row-gap: 2px;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.product img {
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+    justify-self: center;
+}
+
+.detailed-content {
+  width: 200px;
+  height: 150px;
+  padding: 5px;
+  justify-self: center;
+}
+
+.imagem {
+  width: 100%;
+  text-align: center;
+  justify-self: center;
+  padding: 5px;
+}
+
+.menu {
+  text-align: center;
+  padding: 15px;
+}
+
+.video {
+  width: 200px;
+  height: 500px;
+  padding: 15px;
+  justify-self: center;
+}
+
+.price-product {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0px;
+    padding: 30px 0px 5px;
+}
+
+.name-product {
+    margin: 0px;
+    justify-self: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    color: black;
+}
+
+.minus,
+.plus {
+    width: 20px;
+    margin: 2px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+    border-radius: 100px;
+}
+
+.quantity span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #727272;
+    margin: 0px 5px;
+}
+
+.quantity span:nth-of-type(even) {
+    font-style: normal;
+    font-size: 10px;
+    padding: 4px;
+    border: 1px solid #D9D9D9;
+    display: inline-block;
+    text-align: center;
+    width: 24px;
+}
+
+.buy {
+    background-color: black;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 87px;
+    height: 32px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+    border-radius: 2px;
+    color: white;
+    font-weight: 700;
+    justify-self: center;
+}
+
+.botao {
+  background-color: green;
+  border: 1px solid darkgreen;
+  box-sizing: border-box;
+  width: 130px;
+  height: 16px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  font-size: 10px;
+  justify-self: right;
+}
+
+.botaoIncluir {
+  background-color: green;
+  border: 1px solid darkgreen;
+  box-sizing: border-box;
+  width: 60px;
+  height: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  position: center;
+  justify-self: center;
+  }
+
+.botaoComprido {
+  background-color: green;
+  border: 1px solid darkgreen;
+  box-sizing: border-box;
+  width: 230px;
+  height: 16px;
+  text-align: center;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  font-size: 10px;
+  position: center;
+  justify-self: center;
+  }
+
+.form-input-mov {
+  position: center;
+  background-color: rgb(225, 222, 199);
+  padding: 30px 40px;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+#newInput {
+  position: center;
+  border: 1px solid rgb(35, 32, 24);
+  width: 25%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+
+@media (min-width:200px) and (max-width: 282px) {   
+    .quantity-title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        display: block;
+    }
+}
+
+

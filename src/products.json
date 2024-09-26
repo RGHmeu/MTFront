@@ -1,0 +1,82 @@
+{
+    "movs": [
+
+        {
+            "id": 1,
+            "nome": "HalteresRem0001",
+            "image": "halteresRem0001",
+            "texto": "Segurando os halteres, elevar os braços à frente e puxá-los contra o peito como se estivesse remando.",
+            "tipoTrab": "Musculação",
+            "ParteCorpo": "Braço"
+        },
+        {
+            "id": 2,
+            "nome": "DesHalteres0001",
+            "image": "desHalteres0001",
+            "texto": "Segurar os halteres na altura dos ombros e elevar os dois braços até o máximo, movimento conhecido como Desenvolvimento.",
+            "tipoTrab": "Musculação",
+            "ParteCorpo": "Braço"
+        },
+        {
+            "id": 3,
+            "nome": "BiHalteres0010001",
+            "image": "biHalteres0010001",
+            "texto": "Segurando os halteres, braços ao longo do corpo, dobrar os antebraços virando a as palmas das mãos para cima.",
+            "tipoTrab": "Musculação",
+            "ParteCorpo": "Braço"
+        },
+        {
+            "id": 4,
+            "nome": "TriHalteres0300001",
+            "image": "triHalteres030001",
+            "texto": "Segurando os halteres, braços esticados para cima, dobrar os antebraços em direção às costas, mantendo os cotovelos próximos às orelhas.",
+            "tipoTrab": "Musculação",
+            "ParteCorpo": "Braço"
+        },
+        {
+            "id": 5,
+            "nome": "Aquece0010001",
+            "image": "aquece0010001",
+            "texto": "De pé, pernas ligeiramente afastadas, esticar um dos braços para fora como se fosse alcançar alguma coisa ao lado, levantando o outro braço de modo a deixar o antebraço pendente e inclinar ligeiramente o corpo para o lado do braço esticado.",
+            "tipoTrab": "Aquecimento",
+            "ParteCorpo": "Corpo"
+        },
+        {
+            "id": 6,
+            "nome": "Aquece030001",
+            "image": "aquece030001",
+            "texto": "De pé, pernas ligeiramente afastadas, esticar um dos braços para o lado contrário, girando ligeiramente o tronco nessa direção, deixando o outro braço ao longo do corpo e inclinando ligeiramente o corpo para o lado do braço esticado.",
+            "tipoTrab": "Aquecimento",
+            "ParteCorpo": "Corpo"
+        },
+        {
+            "id": 6,
+            "nome": "Agacha0001",
+            "image": "agacha0001",
+            "texto": "De pé, pernas ligeiramente afastadas, apoiando as mãos numa barra, agachar até obter um ângulo reto entre cada coxa e respectiva perna, levantando em seguida.",
+            "tipoTrab": "Aquecimento",
+            "ParteCorpo": "Perna"
+        },
+        {
+            "id": 8,
+            "nome": "Eleva0001",
+            "image": "eleva0001",
+            "texto": "De pé, pernas ligeiramente afastadas, apoiando as mãos numa barra, elevar o corpo apoiando na planta dos pés, voltando em seguida para a posição normal.",
+            "tipoTrab": "Aquecimento",
+            "ParteCorpo": "Perna"
+        },
+        {
+            "id": 9,
+            "nome": "HalteresOm0050001",
+           "image": "halteresOm00500001",
+            "texto": "Segurando os halteres, elevar os ombros mantendo os btraços ao longo do corpo, em segida voltar à posição normal.",
+            "tipoTrab": "Musculação",
+            "ParteCorpo": "Ombro"
+        }
+
+
+]
+
+
+
+ }
